@@ -1,0 +1,83 @@
+html,body { 
+  height: 100%; 
+  margin: 0px; 
+  padding: 0px; 
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container-inner {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.container-reciepe-detail {
+  display: flex;
+  width: 100%;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.reciepe {
+  width: 350px;
+}
+
+.detail-image-section {
+  width: 50%;
+}
+
+.detail-content-section {
+  width: 50%;
+}
+
+.meal-type {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.reciepe-name {
+  font-size: 75px;
+  letter-spacing: -2px;
+  text-transform: uppercase;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.reciepe-ingredients {
+  font-size: 15px;
+  font-weight: 490;
+  line-height: 1.6;
+}
+
+.fav-color, .fav-hover:hover {
+  color: red;
+}
+
+.ingredient-box {
+  border: 0.5px solid rgb(172, 172, 172);
+  width: 100%;
+  border-radius: 5px;
+}
+
+.w-50px {
+  width: 50px;
+}
+
+.w-400px {
+  width: 400px;
+}
+
+.w-200px {
+  width: 200px;
+}
+
+.h-50px {
+  height: 50px;
+}
